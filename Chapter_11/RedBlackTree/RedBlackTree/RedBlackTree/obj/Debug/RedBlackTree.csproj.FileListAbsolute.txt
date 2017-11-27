@@ -1,0 +1,5 @@
+C:\Collection Book Projects\Chapter_11\RedBlackTree\RedBlackTree\RedBlackTree\obj\Debug\ResolveAssemblyReference.cache
+C:\Collection Book Projects\Chapter_11\RedBlackTree\RedBlackTree\RedBlackTree\bin\Debug\RedBlackTree.exe
+C:\Collection Book Projects\Chapter_11\RedBlackTree\RedBlackTree\RedBlackTree\bin\Debug\RedBlackTree.pdb
+C:\Collection Book Projects\Chapter_11\RedBlackTree\RedBlackTree\RedBlackTree\obj\Debug\RedBlackTree.exe
+C:\Collection Book Projects\Chapter_11\RedBlackTree\RedBlackTree\RedBlackTree\obj\Debug\RedBlackTree.pdb

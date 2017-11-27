@@ -1,0 +1,91 @@
+.method public hidebysig static void  Main() cil managed
+{
+  .entrypoint
+  // Code size       177 (0xb1)
+  .maxstack  3
+  .locals init (class [mscorlib]System.Collections.Stack V_0,
+           class [System]System.Collections.Generic.Stack`1<int32> V_1,
+           valuetype [mscorlib]System.DateTime V_2,
+           int32 V_3,
+           valuetype [mscorlib]System.TimeSpan V_4,
+           bool V_5)
+  IL_0000:  nop
+  IL_0001:  newobj     instance void [mscorlib]System.Collections.Stack::.ctor()
+  IL_0006:  stloc.0
+  IL_0007:  newobj     instance void class [System]System.Collections.Generic.Stack`1<int32>::.ctor()
+  IL_000c:  stloc.1
+  IL_000d:  call       valuetype [mscorlib]System.DateTime [mscorlib]System.DateTime::get_Now()
+  IL_0012:  stloc.2
+  IL_0013:  ldc.i4.0
+  IL_0014:  stloc.3
+  IL_0015:  br.s       IL_002a
+  IL_0017:  nop
+  IL_0018:  ldloc.0
+  IL_0019:  ldloc.3
+  IL_001a:  box        [mscorlib]System.Int32
+  IL_001f:  callvirt   instance void [mscorlib]System.Collections.Stack::Push(object)
+  IL_0024:  nop
+  IL_0025:  nop
+  IL_0026:  ldloc.3
+  IL_0027:  ldc.i4.1
+  IL_0028:  add
+  IL_0029:  stloc.3
+  IL_002a:  ldloc.3
+  IL_002b:  ldc.i4     0x17d7840
+  IL_0030:  clt
+  IL_0032:  stloc.s    V_5
+  IL_0034:  ldloc.s    V_5
+  IL_0036:  brtrue.s   IL_0017
+  IL_0038:  call       valuetype [mscorlib]System.DateTime [mscorlib]System.DateTime::get_Now()
+  IL_003d:  ldloc.2
+  IL_003e:  call       valuetype [mscorlib]System.TimeSpan [mscorlib]System.DateTime::op_Subtraction(valuetype [mscorlib]System.DateTime,
+                                                                                                     valuetype [mscorlib]System.DateTime)
+  IL_0043:  stloc.s    V_4
+  IL_0045:  ldstr      "Time to push {0:N} integers to non-generic stack: "
+  + "{1}"
+  IL_004a:  ldc.i4     0x17d7840
+  IL_004f:  box        [mscorlib]System.Int32
+  IL_0054:  ldloc.s    V_4
+  IL_0056:  box        [mscorlib]System.TimeSpan
+  IL_005b:  call       void [mscorlib]System.Console::WriteLine(string,
+                                                                object,
+                                                                object)
+  IL_0060:  nop
+  IL_0061:  call       valuetype [mscorlib]System.DateTime [mscorlib]System.DateTime::get_Now()
+  IL_0066:  stloc.2
+  IL_0067:  ldc.i4.0
+  IL_0068:  stloc.3
+  IL_0069:  br.s       IL_0079
+  IL_006b:  nop
+  IL_006c:  ldloc.1
+  IL_006d:  ldloc.3
+  IL_006e:  callvirt   instance void class [System]System.Collections.Generic.Stack`1<int32>::Push(!0)
+  IL_0073:  nop
+  IL_0074:  nop
+  IL_0075:  ldloc.3
+  IL_0076:  ldc.i4.1
+  IL_0077:  add
+  IL_0078:  stloc.3
+  IL_0079:  ldloc.3
+  IL_007a:  ldc.i4     0x17d7840
+  IL_007f:  clt
+  IL_0081:  stloc.s    V_5
+  IL_0083:  ldloc.s    V_5
+  IL_0085:  brtrue.s   IL_006b
+  IL_0087:  call       valuetype [mscorlib]System.DateTime [mscorlib]System.DateTime::get_Now()
+  IL_008c:  ldloc.2
+  IL_008d:  call       valuetype [mscorlib]System.TimeSpan [mscorlib]System.DateTime::op_Subtraction(valuetype [mscorlib]System.DateTime,
+                                                                                                     valuetype [mscorlib]System.DateTime)
+  IL_0092:  stloc.s    V_4
+  IL_0094:  ldstr      "Time to push {0:N} integers to generic stack of in"
+  + "tegers: {1}"
+  IL_0099:  ldc.i4     0x17d7840
+  IL_009e:  box        [mscorlib]System.Int32
+  IL_00a3:  ldloc.s    V_4
+  IL_00a5:  box        [mscorlib]System.TimeSpan
+  IL_00aa:  call       void [mscorlib]System.Console::WriteLine(string,
+                                                                object,
+                                                                object)
+  IL_00af:  nop
+  IL_00b0:  ret
+} // end of method PushValueTypeDemo::Main

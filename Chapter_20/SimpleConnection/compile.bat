@@ -1,0 +1,1 @@
+csc /r:Microsoft.Practices.EnterpriseLibrary.Data.dll;Microsoft.Practices.EnterpriseLibrary.Common.dll /lib:"C:\Program Files (x86)\Microsoft Enterprise Library 5.0\Bin" *.cs

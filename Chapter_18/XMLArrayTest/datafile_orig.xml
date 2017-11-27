@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPerson xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person>
+    <FirstName>Deekster</FirstName>
+    <MiddleName>Willis</MiddleName>
+    <LastName>Jaybones</LastName>
+    <Gender>MALE</Gender>
+    <Birthday>1966-02-19T00:00:00</Birthday>
+    <DNA>b5d3d60e-f63a-46ed-98b1-ab0b532b4c76</DNA>
+  </Person>
+  <Person>
+    <FirstName>Knut</FirstName>
+    <MiddleName>J</MiddleName>
+    <LastName>Hampson</LastName>
+    <Gender>MALE</Gender>
+    <Birthday>1972-04-23T00:00:00</Birthday>
+    <DNA>6c1096de-c0b8-40b9-baa9-98c9c8d88269</DNA>
+  </Person>
+  <Person>
+    <FirstName>Katrina</FirstName>
+    <MiddleName>Kataline</MiddleName>
+    <LastName>Kobashar</LastName>
+    <Gender>FEMALE</Gender>
+    <Birthday>1982-09-03T00:00:00</Birthday>
+    <DNA>04376f18-3c2f-4209-a225-772ba0f18fb8</DNA>
+  </Person>
+  <Person>
+    <FirstName>Dreya</FirstName>
+    <MiddleName>Babe</MiddleName>
+    <LastName>Weber</LastName>
+    <Gender>FEMALE</Gender>
+    <Birthday>1978-11-25T00:00:00</Birthday>
+    <DNA>ec656717-ce71-44dd-ae26-c2a170d1d6d3</DNA>
+  </Person>
+  <Person>
+    <FirstName>Sam</FirstName>
+    <MiddleName>"The Guitar Man"</MiddleName>
+    <LastName>Miller</LastName>
+    <Gender>MALE</Gender>
+    <Birthday>1988-04-16T00:00:00</Birthday>
+    <DNA>5bc63749-ed5d-473f-9303-7d45dc5f18df</DNA>
+  </Person>
+</ArrayOfPerson>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Dog>
+    <Birthday>1965-07-08T00:00:00</Birthday>
+    <Name>Rick Miller</Name>
+  </Dog>
+  <Dog>
+    <Birthday>1973-08-10T00:00:00</Birthday>
+    <Name>Coralie Powell</Name>
+  </Dog>
+  <Dog>
+    <Birthday>1990-05-01T00:00:00</Birthday>
+    <Name>Kyle Miller</Name>
+  </Dog>
+</ArrayOfDog>
